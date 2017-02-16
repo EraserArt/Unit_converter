@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ru.antipanov.unit_converter.MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2">>
+
+            <Button
+                    android:text="@string/area"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Area"
+                    android:layout_weight="1"
+                android:textAllCaps="false"
+                android:onClick="onClick_Area" />
+
+            <Button
+                android:text="@string/mass"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Mass"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:onClick="onClick_Mass" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2">>
+
+            <Button
+                    android:text="@string/speed"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Speed"
+                    android:layout_weight="1"
+                android:textAllCaps="false"
+                android:onClick="onClick_Speed" />
+
+            <Button
+                android:text="@string/time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Time"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:onClick="onClick_Time" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2">>
+
+            <Button
+                    android:text="@string/temperature"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Temperature"
+                    android:layout_weight="1"
+                android:textAllCaps="false"
+                android:onClick="onClick_Temperature" />
+
+            <Button
+                android:text="@string/lenght"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Lenght"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:onClick="onClick_Lenght" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2">>
+
+            <Button
+                    android:text="@string/volume"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Volume"
+                    android:layout_weight="1"
+                android:textAllCaps="false"
+                android:onClick="onClick_Volume" />
+
+            <Button
+                android:text="@string/pressure"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Pressure"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:onClick="onClick_Pressure" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2">>
+
+            <Button
+                android:text="@string/power"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Power"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:onClick="onClick_Power" />
+
+            <Button
+                android:text="@string/torque"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Torque"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:onClick="onClick_Torque" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2">>
+
+            <Button
+                android:text="@string/fuel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fuel"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:onClick="onClick_Fuel" />
+
+            <Button
+                android:text="@string/energy"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Energy"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:onClick="onClick_Energy" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2">
+
+            <Button
+                android:text="@string/digital_storage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Digital_storage"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:onClick="onClick_Digital" />
+
+            <Button
+                android:text="@string/cooking"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Cooking"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:onClick="onClick_Cooking" />
+
+
+        </TableRow>
+
+
+    </TableLayout>
+</RelativeLayout>
